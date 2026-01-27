@@ -1,0 +1,20 @@
+[debug] [2026-01-26T10:17:43.749Z] ----------------------------------------------------------------------
+[debug] [2026-01-26T10:17:43.764Z] Command:       D:\nodejs\node.exe C:\Users\Computer care\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig web 1:513910824643:web:48f411d1416c0d58c80c76 --json
+[debug] [2026-01-26T10:17:43.766Z] CLI Version:   15.0.0
+[debug] [2026-01-26T10:17:43.767Z] Platform:      win32
+[debug] [2026-01-26T10:17:43.767Z] Node Version:  v24.11.1
+[debug] [2026-01-26T10:17:43.768Z] Time:          Mon Jan 26 2026 15:17:43 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-01-26T10:17:43.768Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-26T10:17:43.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-26T10:17:43.885Z] > authorizing via signed-in user (aqsa03251007@gmail.com)
+[debug] [2026-01-26T10:17:43.898Z] Checked if tokens are valid: true, expires at: 1769426033766
+[debug] [2026-01-26T10:17:43.898Z] Checked if tokens are valid: true, expires at: 1769426033766
+[debug] [2026-01-26T10:17:43.902Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:513910824643:web:48f411d1416c0d58c80c76/config [none]
+[debug] [2026-01-26T10:18:01.326Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:513910824643:web:48f411d1416c0d58c80c76/config, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:513910824643:web:48f411d1416c0d58c80c76/config failed, reason: socket hang up
+[debug] [2026-01-26T10:18:01.327Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:513910824643:web:48f411d1416c0d58c80c76/config
+[debug] [2026-01-26T10:18:01.971Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:513910824643:web:48f411d1416c0d58c80c76/config
+    at RetryOperation._fn (C:\Users\Computer care\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:271:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to get WEB app configuration. See firebase-debug.log for more info.
